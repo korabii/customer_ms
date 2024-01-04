@@ -1,0 +1,26 @@
+# Spring Boot specific
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Compiled files
+*.class
+
+# Logs
+logs/
+*.log
+
+# Dependency directory
+# Assuming you're using Maven, add the following if using Gradle: build/
+# Maven
+*/target/
+
+# Exclude files in src/main/resources
+/src/main/resources/application.properties
+/src/main/resources/application.yml
+# Add other resource files or folders you want to exclude from version control
